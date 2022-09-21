@@ -1,0 +1,23 @@
+THE SUMMARY OF UNDERSTANDING OF ALGORITHMS SCHEDULING THE CPU TASKS:
+
+
+The SJF ALGORITHM: 
+------------------
+SJF Stands for Shortest Job first. This Algorithm of Scheduling completes the tasks based on their lengths the task which 
+can be done in the smallest time is done by the CPU and Similiary the tasks are done by the increasing order of their
+time consumption. The task with the expectation of being done in the longest time among the tasks to be done is completed
+at the end.
+
+
+The FIFO ALGORITHM:
+-------------------
+FIFO Stands for First In First Out.As the name of the suggests in this algorithm: The task which reaches first to the cpu 
+is done by the cpu. There is priority of expected time taken by the task. The task which reaches to the cpu at the end is 
+processsed at the end despite of its time length or complexity.
+
+
+The RR ALGORITHM:
+-----------------
+RR stands for Round Robin.Round Robin is the preemptive process scheduling algorithm. Each process is provided a fix time 
+to execute, it is called a quantum. Once a process is executed for a given time period, it is preempted and other process 
+executes for a given time period. Context switching is used to save states of preempted processes
